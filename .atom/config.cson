@@ -1,0 +1,11 @@
+'editor':
+  'fontSize': 16
+'core': {}
+'exception-reporting':
+  'userId': '5cdc0309-9b9c-a91f-7129-6a6820fcab06'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '05fd2ce9905f5c3267a90d72c1a7a1842d3f01be'
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true
