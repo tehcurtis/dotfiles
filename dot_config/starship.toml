@@ -1,0 +1,5 @@
+[directory]
+# Only show the last 3 directories in the path
+truncation_length = 3
+# Keep showing the full path even if you are inside a git repository
+truncate_to_repo = false

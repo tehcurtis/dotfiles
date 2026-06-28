@@ -1,0 +1,48 @@
+# ==========================================
+# Paths & Environment Variables
+# ==========================================
+export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="$HOME/.config/emacs/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# ==========================================
+# Completions
+# ==========================================
+# Initialize zsh completions (OMZ used to do this for you)
+fpath+=/opt/homebrew/share/zsh/site-functions
+autoload -Uz compinit && compinit
+
+# ==========================================
+# Tools & Integrations
+# ==========================================
+# fzf integration
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Bun completions
+[ -s "$BUN_INSTALL/_bun" ] && source "$BUN_INSTALL/_bun"
+
+# Mise (Environment manager)
+eval "$($HOME/.local/bin/mise activate zsh)"
+
+# ==========================================
+# Local Secrets (Not tracked by chezmoi)
+# ==========================================
+if [ -f ~/.zshrc.local ]; then
+    source ~/.zshrc.local
+fi
+
+# Starship Prompt (Must be last)
+eval "$(starship init zsh)"
+
+# ==========================================
+# Aliases
+# ==========================================
+alias gst="git status"
+alias gco="git checkout"
+alias gl="git pull"
+alias gp="git push"
+alias gsb='git status --short --branch'
