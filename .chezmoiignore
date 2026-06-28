@@ -1,0 +1,2 @@
+# Repo files that live in the source dir but should NOT be applied to $HOME.
+README.md
