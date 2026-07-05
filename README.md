@@ -35,6 +35,8 @@ chezmoi managed         # list managed files
 ## Currently managed
 
 - `~/.Brewfile` (plus `run_onchange_darwin-install-packages.sh.tmpl`, which runs `brew bundle` whenever it changes)
+- `~/.config/doom/` (init.el, config.el, packages.el; `personal.el` is
+  gitignored — it holds personal/sensitive values)
 - `~/.config/starship.toml`
 - `~/.gitconfig`
 - `~/.gitignore_global`
