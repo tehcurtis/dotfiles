@@ -1,0 +1,31 @@
+# ~/.Brewfile — curated essentials for a fresh machine, not a full dump.
+# Install with: brew bundle --global
+tap "d12frosted/emacs-plus"
+
+# Core CLI
+brew "git"
+brew "gh"
+brew "chezmoi"
+brew "starship"
+brew "mise"
+brew "fzf"
+brew "ripgrep"
+brew "fd"
+brew "jq"
+brew "wget"
+brew "coreutils"
+
+# Editors & Doom Emacs deps (fd/ripgrep above)
+brew "d12frosted/emacs-plus/emacs-plus@30"
+brew "shellcheck"
+brew "discount" # provides the `markdown` binary doom's markdown module wants
+
+# Databases & services for Rails work
+brew "postgresql@15"
+brew "redis"
+brew "libyaml"
+brew "openssl@3"
+
+# Runtime build deps (ruby/python via mise)
+brew "gmp"
+brew "readline"
