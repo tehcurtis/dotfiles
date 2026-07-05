@@ -36,6 +36,7 @@ chezmoi managed         # list managed files
 
 - `~/.config/starship.toml`
 - `~/.gitconfig`
+- `~/.gitignore_global`
 - `~/.zprofile`
 - `~/.zshrc`
 
