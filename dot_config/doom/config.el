@@ -18,7 +18,7 @@
 (setq magit-repository-directories '(("~/projects" . 2))
       magit-save-repository-buffers nil
       transient-values '((magit-rebase "--autosquash" "--autostash")
-                        ;; (magit-pull "--rebase" "--autostash")
+                         ;; (magit-pull "--rebase" "--autostash")
                          (magit-revert "--autostash")))
 
 (after! org
@@ -56,6 +56,12 @@
          ("\\.tsx\\'" . tsx-ts-mode))
   :config
   (add-hook! '(typescript-ts-mode-hook tsx-ts-mode-hook) #'lsp!))
+
+;;; Show relative line numbers
+(setq display-line-numbers-type 'relative)
+
+;;; Trim whitespace on save
+(add-hook 'before-save-hook #'delete-trailing-whitespace)
 
 ;; Load personal config (not tracked in git)
 (load! "personal.el" nil t)
