@@ -1,0 +1,4 @@
+# frozen_string_literal: true
+
+Pry.config.editor = ENV.fetch("EDITOR", "emacs")
+Pry.config.history_file = File.expand_path("~/.pry_history")
