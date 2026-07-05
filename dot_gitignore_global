@@ -1,0 +1,15 @@
+# OS cruft
+.DS_Store
+
+# Editor / IDE cruft
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# REPL / debugger history
+.byebug_history
+.irb_history
+
+# Project-local runtime overrides
+.python-version

@@ -35,6 +35,7 @@ chezmoi managed         # list managed files
 ## Currently managed
 
 - `~/.gitconfig`
+- `~/.gitignore_global`
 - `~/.zprofile`
 - `~/.zshrc`
 

@@ -3,3 +3,31 @@
 [user]
 	name = curtis
 	email = curtis.edmond@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[push]
+	autoSetupRemote = true
+	default = current
+[diff]
+	algorithm = histogram
+[merge]
+	conflictstyle = zdiff3
+[rerere]
+	enabled = true
+[rebase]
+	autosquash = true
+[alias]
+	st = status
+	co = checkout
+	sb = status --short --branch
+	lg = log --graph --pretty=format:'%C(auto)%h%d %s %C(dim)%an, %ar%C(reset)'
+	unstage = restore --staged
+	fixup = commit --fixup
