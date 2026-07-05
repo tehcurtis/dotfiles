@@ -1,0 +1,3 @@
+# Personal/sensitive config that stays on this machine only — chezmoi still
+# applies it from the source dir, but it never gets pushed to this public repo.
+dot_config/doom/private_personal.el
