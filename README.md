@@ -34,7 +34,14 @@ chezmoi managed         # list managed files
 
 ## Currently managed
 
+- `~/.config/mise/config.toml`
+- `~/.gemrc`
 - `~/.gitconfig`
+- `~/.gradle/gradle.properties`
+- `~/.irbrc`
+- `~/.pryrc`
+- `~/.psqlrc`
+- `~/.tool-versions`
 - `~/.zprofile`
 - `~/.zshrc`
 

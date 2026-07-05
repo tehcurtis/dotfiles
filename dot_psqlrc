@@ -1,0 +1,12 @@
+\set QUIET 1
+
+-- Make NULLs visible
+\pset null '¤'
+
+-- Show query times
+\timing
+
+-- Expanded output only when rows are too wide
+\x auto
+
+\unset QUIET
