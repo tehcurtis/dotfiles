@@ -34,6 +34,7 @@ chezmoi managed         # list managed files
 
 ## Currently managed
 
+- `~/.Brewfile` (plus `run_onchange_darwin-install-packages.sh.tmpl`, which runs `brew bundle` whenever it changes)
 - `~/.config/starship.toml`
 - `~/.gitconfig`
 - `~/.gitignore_global`
