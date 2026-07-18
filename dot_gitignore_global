@@ -13,3 +13,5 @@
 
 # Project-local runtime overrides
 .python-version
+
+**/.claude/settings.local.json

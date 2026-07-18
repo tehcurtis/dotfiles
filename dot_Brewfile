@@ -14,6 +14,8 @@ brew "fd"
 brew "jq"
 brew "wget"
 brew "coreutils"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 
 # Editors & Doom Emacs deps (fd/ripgrep above)
 brew "d12frosted/emacs-plus/emacs-plus@30"

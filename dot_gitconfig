@@ -18,12 +18,15 @@
 	default = current
 [diff]
 	algorithm = histogram
+	colorMoved = default
 [merge]
 	conflictstyle = zdiff3
 [rerere]
 	enabled = true
 [rebase]
 	autosquash = true
+[help]
+	autocorrect = prompt
 [alias]
 	st = status
 	co = checkout

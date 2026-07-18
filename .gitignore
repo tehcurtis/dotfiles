@@ -1,3 +1,7 @@
 # Personal/sensitive config that stays on this machine only — chezmoi still
 # applies it from the source dir, but it never gets pushed to this public repo.
 dot_config/doom/private_personal.el
+
+# Repo-local protection so a fresh clone can't accidentally commit this
+# before ~/.gitignore_global is in place.
+.claude/settings.local.json

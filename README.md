@@ -34,6 +34,7 @@ chezmoi managed         # list managed files
 
 ## Currently managed
 
+- `~/.config/ghostty/config`
 - `~/.config/mise/config.toml`
 - `~/.gemrc`
 - `~/.gitconfig`
@@ -41,12 +42,10 @@ chezmoi managed         # list managed files
 - `~/.irbrc`
 - `~/.pryrc`
 - `~/.psqlrc`
-- `~/.tool-versions`
 - `~/.Brewfile` (plus `run_onchange_darwin-install-packages.sh.tmpl`, which runs `brew bundle` whenever it changes)
 - `~/.config/doom/` (init.el, config.el, packages.el; `personal.el` is
   gitignored — it holds personal/sensitive values)
 - `~/.config/starship.toml`
-- `~/.gitconfig`
 - `~/.gitignore_global`
 - `~/.zprofile`
 - `~/.zshrc`

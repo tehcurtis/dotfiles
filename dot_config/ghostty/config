@@ -1,0 +1,5 @@
+# Ghostty config. Defaults are sensible; only overrides live here.
+# Docs: https://ghostty.org/docs/config
+
+# shift+enter inserts a newline instead of submitting
+keybind = shift+enter=text:\x1b\r
